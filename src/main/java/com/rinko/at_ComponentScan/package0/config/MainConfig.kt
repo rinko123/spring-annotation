@@ -1,14 +1,12 @@
 package com.rinko.at_ComponentScan.package0.config
 
-import com.rinko.at_ComponentScan.package2.DogController
+import com.rinko.at_ComponentScan.package0.config.condition.MyTypeFilter
 import org.springframework.context.annotation.ComponentScan
 import org.springframework.context.annotation.ComponentScan.Filter
 import org.springframework.context.annotation.ComponentScans
 import org.springframework.context.annotation.Configuration
 import org.springframework.context.annotation.FilterType
 import org.springframework.stereotype.Component
-import org.springframework.stereotype.Controller
-import org.springframework.stereotype.Service
 
 
 /**
